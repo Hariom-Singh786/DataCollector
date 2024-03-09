@@ -1,0 +1,99 @@
+#root {
+  width: 100%;
+}
+
+.container {
+  width: 350px;
+  margin: 20px auto;
+  color:rgb(16, 5, 46)
+}
+
+h1.title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+
+  input.todo-input {
+    padding: 0px 10px;
+    font-size: 1rem;
+    border: 2px solid #050368;
+    border-radius: 5px;
+    height: 32px;
+    flex: 1;
+  }
+
+  button.submit-btn {
+    padding: 0px 10px;
+    font-size: 1rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    height: 32px;
+    width: 80px;
+    background-color: #050368;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+ul>.submit-btn{
+  padding: 0px 10px;
+  font-size: 1rem;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  height: 32px;
+  width: 100px;
+  background-color: #050368;
+  color: #fff;
+  cursor: pointer;
+}
+ul>.del-btn{
+  padding: 0px 10px;
+  margin-left: 60px;
+  font-size: 1rem;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  height: 32px;
+  width: 100px;
+  background-color: #050368;
+  color: #fff;
+  cursor: pointer;
+}
+ul.todos {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0px;
+
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #dcdce3;
+    gap: 10px;
+
+    span {
+      flex: 1;
+    }
+
+    button {
+      padding: 0px 10px;
+      font-size: 1rem;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      height: 32px;
+      width: 80px;
+      background-color: #dc3545;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
